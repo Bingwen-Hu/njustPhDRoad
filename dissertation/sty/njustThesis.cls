@@ -112,8 +112,8 @@
 \newcommand\NJUSTspace{\protect\quad\protect\quad}
 %% underline
 \def\NJUST@underline[#1]#2{%
-  \CTEXunderline{\hbox to #1{\hfill#2\hfill}}}
-\def\NJUSTunderline{\@ifnextchar[\NJUST@underline\CTEXunderline}
+  \CJKunderline{\hbox to #1{\hfill#2\hfill}}}
+\def\NJUSTunderline{\@ifnextchar[\NJUST@underline\CJKunderline}
 %%%%% ------------------------------------------------------------------------------------------
 %%
 %%%%********************** chinese titlepage items **************************************
